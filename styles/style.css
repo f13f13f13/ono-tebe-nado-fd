@@ -1,1 +1,385 @@
-/* место для вашего кода */
+.main-font {
+  font-size: 20px;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+.address {
+  font-size: 18px;
+  font-style: normal;
+}
+
+.nav {
+  font-size: 18px;
+}
+
+.title-section {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 3.5px;
+}
+
+.circle {
+  list-style-type: circle;
+}
+
+.no-bullit {
+  list-style-type: none;
+}
+
+.aligned_center {
+  display: flex;
+  justify-content: center;
+}
+
+/* В блоке правил выше указаны повторяющиеся стили (Не совсем понял как правильно это делать с точки зрения кодстайла, буду рад внести правки) */
+
+/* Блок шапки */
+header {
+  height: 293px;
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
+  padding: 92px 50px 96px 50px;
+  height: 293px;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 33.5px;
+  margin-bottom: 6px;
+}
+
+.header-address {
+  display: flex;
+  justify-self: flex-end;
+  align-items: center;
+  margin-right: 35px;
+  margin-bottom: 4px;
+  line-height: 135%;
+}
+
+.logo-header {
+  width: 148px;
+  height: 105px;
+}
+
+/* Блок main */
+
+/* 1 раздел */
+
+.overlay-cover {
+  height: 757px;
+  background-color: rgb(0 0 0/0.6);
+}
+
+.cover {
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-size: cover;
+  height: 757px;
+  color: white;
+}
+
+.cover__title {
+  position: relative;
+  top: 160px;
+  left: 50px;
+  letter-spacing: 0.3em;
+  line-height: 128%;
+  font-size: 100px;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_center {
+  text-align: center;
+  margin-top: 5px;
+  margin-right: 70px;
+}
+
+.aligned-text_right {
+  text-align: right;
+  margin-top: 5px;
+  margin-right: 70px;
+}
+
+.description {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+.cover-text_bottom {
+  position: relative;
+  top: 265px;
+  left: 52px;
+  word-spacing: 0.82em;
+  line-height: 127%;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.button {
+  position: relative;
+  top: 262px;
+  right: 40px;
+  padding: 12px 32px;
+  font-size: 22px;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+/*2 раздел */
+
+.lots {
+  padding-top: 176px;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 1000px;
+  color: black;
+}
+
+.title-lots {
+  padding-left: 40px;
+  padding-top: 4px;
+}
+
+.card-lots {
+  display: grid;
+  grid-template-columns: repeat(3, 334px);
+  grid-template-rows: 596px;
+  justify-content: space-between;
+  color: white;
+}
+
+.overlay-lots {
+  position: relative;
+  z-index: 2;
+  background-color: rgb(0 0 0/0.6);
+  width: 334px;
+  height: 596px;
+}
+
+.card {
+  display: grid;
+  position: relative;
+  top: 28px;
+}
+
+.lots-card_left {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text_link_left {
+  position: relative;
+  top: 48px;
+  left: 40px;
+  height: 82px;
+  width: 254px;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card-text_main_left {
+  position: relative;
+  top: 322px;
+  left: 40px;
+  height: 144px;
+  width: 254px;
+}
+
+.poul_thomas {
+  /*Не садился шрифт, пришлось добавить через <span>*/
+  position: relative;
+  right: 3px;
+}
+
+.lots-card_left_background {
+  background-image: url(../images/card-lot-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-size: cover;
+  height: 596px;
+}
+
+.lots-card_center {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text_link_center {
+  position: relative;
+  top: 48px;
+  left: 40px;
+  height: 110px;
+  width: 254px;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card-text_main_center {
+  position: relative;
+  top: 78px;
+  left: 40px;
+  height: 360px;
+  width: 254px;
+}
+
+.lots-card_center_background {
+  background-image: url(../images/card-lot-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-size: cover;
+  height: 596px;
+}
+
+.lots-card_right {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text_link_right {
+  position: relative;
+  top: 48px;
+  left: 40px;
+  height: 110px;
+  width: 254px;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card-text_main_right {
+  position: relative;
+  top: 175px;
+  left: 40px;
+  height: 264px;
+  width: 254px;
+}
+
+.one-of {
+  /*Тоже самое что и с шрифтом первого лота*/
+  position: relative;
+  right: 3px;
+}
+
+.lots-card_right_background {
+  background-image: url(../images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-size: cover;
+  height: 596px;
+}
+
+.more {
+  position: relative;
+  top: 58px;
+  left: 40px;
+  color: black;
+}
+
+/* 3 раздел */
+
+.about {
+  display: grid;
+  grid-template-columns: 359px 693px;
+  grid-template-rows: auto;
+  height: 800px;
+  padding-top: 160px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.logo-about {
+  position: relative;
+  top: 64px;
+  left: 46px;
+  width: 148px;
+  height: 114px;
+}
+
+.ellipse {
+  position: relative;
+  bottom: 100px;
+  left: 48px;
+  width: 240px;
+  height: 240px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.about-text_top {
+  position: relative;
+  top: 100px;
+  height: 120px;
+  width: 688px;
+}
+
+.about-text_bottom {
+  position: relative;
+  top: 125px;
+  height: 168px;
+  width: 693px;
+}
+
+.block-about {
+  height: 449px;
+  width: 693px;
+}
+
+/* Блок подвала */
+
+footer {
+  height: 180px;
+  display: grid;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: start;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.address {
+  line-height: 135%;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 48px;
+  gap: 48px;
+}
+
+.social-img {
+  width: 48px;
+  height: 48px;
+}
