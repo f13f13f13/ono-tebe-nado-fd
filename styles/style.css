@@ -9,6 +9,8 @@
 .address {
   font-size: 18px;
   font-style: normal;
+  line-height: 135%;
+
 }
 
 .nav {
@@ -46,7 +48,6 @@ header {
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
   padding: 92px 50px 96px 50px;
-  height: 293px;
 }
 
 .nav-header {
@@ -91,7 +92,6 @@ header {
   background-position: center;
   background-size: 100%;
   background-size: cover;
-  height: 757px;
   color: white;
 }
 
@@ -223,7 +223,6 @@ header {
   background-position: center;
   background-size: 100%;
   background-size: cover;
-  height: 596px;
 }
 
 .lots-card_center {
@@ -256,7 +255,6 @@ header {
   background-position: center;
   background-size: 100%;
   background-size: cover;
-  height: 596px;
 }
 
 .lots-card_right {
@@ -295,7 +293,6 @@ header {
   background-position: center;
   background-size: 100%;
   background-size: cover;
-  height: 596px;
 }
 
 .more {
@@ -365,10 +362,6 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
   padding-left: 50px;
   padding-right: 50px;
-}
-
-.address {
-  line-height: 135%;
 }
 
 .social {
