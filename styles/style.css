@@ -197,20 +197,26 @@ header {
 }
 
 .card-text_link_left {
+  width: 254px;
+}
+
+.card-text_link {
   position: relative;
   margin-top: 48px;
   margin-left: 40px;
-  width: 254px;
   font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.card-text_main {
+  width: 254px;
 }
 
 .card-text_main_left {
   position: relative;
   margin-top: 278px;
   margin-left: 40px;
-  width: 254px;
 }
 
 .poul_thomas {
@@ -229,20 +235,13 @@ header {
 }
 
 .card-text_link_center {
-  position: relative;
-  margin-top: 48px;
-  margin-left: 40px;
   width: 254px;
-  font-size: 22px;
-  font-weight: bold;
-  text-transform: uppercase;
 }
 
 .card-text_main_center {
   position: relative;
   margin-top: 36px;
   margin-left: 40px;
-  width: 254px;
 }
 
 .lots-card_center_background {
@@ -255,20 +254,13 @@ header {
 }
 
 .card-text_link_right {
-  position: relative;
-  margin-top: 48px;
-  margin-left: 40px;
   width: 254px;
-  font-size: 22px;
-  font-weight: bold;
-  text-transform: uppercase;
 }
 
 .card-text_main_right {
   position: relative;
   margin-top: 132px;
   margin-left: 40px;
-  width: 254px;
 }
 
 .one-of {
@@ -344,6 +336,7 @@ footer {
   margin-top: 180px;
   padding-left: 50px;
   padding-right: 50px;
+  margin-bottom: 180px;
 }
 
 .nav-footer {
