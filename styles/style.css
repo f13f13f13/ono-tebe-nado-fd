@@ -1,10 +1,5 @@
 /*Спасибо за проверку и развернутые ответы! Помогли более детально разобраться с отсупами!*/
 
-body {
-  background-color: blue;
-}
-
-
 .main-font {
   font-size: 20px;
 }
@@ -339,7 +334,6 @@ footer {
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 80px;
-  background-color: aqua;
 }
 
 .nav-footer {
